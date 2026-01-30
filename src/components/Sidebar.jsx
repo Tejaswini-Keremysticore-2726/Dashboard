@@ -37,13 +37,13 @@ function Sidebar() {
             </ul>
           </details>
         </li>
-
+{/* 
         <li className="rounded cursor-pointer hover:bg-black hover:text-white flex gap-2 p-2 items-center font-semibold">
           <i className="fa-regular fa-calendar"></i>
           Calendar
-        </li>
+        </li> */}
 
-        {/* <li>
+        <li>
           <NavLink
             to="/calendar"
             className={({ isActive }) =>
@@ -54,8 +54,8 @@ function Sidebar() {
           >
             <i className="fa-regular fa-calendar"></i>
             Calendar
-          </NavLink> */}
-        {/* </li> */}
+          </NavLink>
+        </li>
       </ul>
     </div>
   );

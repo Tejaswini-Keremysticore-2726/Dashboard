@@ -48,7 +48,7 @@ import Leadtable from "./components/Leadtable";
 import Usertable from "./pages/Usertable";
 import Userroletable from "./pages/Userroletable";
 import Login from "./pages/Login";
-// import CalendarPage from "./pages/CalendarPage";
+import Calendar from "./components/Calendar";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -61,7 +61,7 @@ function App() {
         <Route index element={<Dashboard />} />
 
         {/* ✅ Calendar */}
-        {/* <Route path="calendar" element={<CalendarPage />} /> */}
+        <Route path="calendar" element={<Calendar />} />
 
         {/* ✅ Single leadtable parent route */}
         <Route path="leadtable" element={<Leadtable />}>
