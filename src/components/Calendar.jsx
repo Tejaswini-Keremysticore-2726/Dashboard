@@ -18,7 +18,8 @@ export default function CalendarPage() {
   const defaultDate = useMemo(() => new Date(), []);
 
   return (
-    <div className="bg-white rounded shadow p-6 w-220 content-center ">
+  <div className="flex justify-center items-center">
+      <div className="bg-white rounded shadow p-6 w-220 content-center ">
       <h1 className="text-2xl font-bold mb-4">Calendar</h1>
 
       <div style={{ height: "50vh", width: "50vw" }}>
@@ -49,5 +50,6 @@ export default function CalendarPage() {
         />
       </div>
     </div>
+  </div>
   );
 }
