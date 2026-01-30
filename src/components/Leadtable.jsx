@@ -53,12 +53,20 @@ function Leadtable() {
       <div className="flex gap-5 mt-5 text-[18px] font-semibold w-full bg-[#f9f9f9] p-2 rounded">
         {/* ✅ default tab for /leadtable */}
         <NavLink to="/leadtable" end className={activeClass}>
-          <div className="w-[120px] text-center p-1">User</div>
+          <div className="w-[120px] text-center p-1">Account</div>
         </NavLink>
 
         {/* ✅ child tab for /leadtable/userroletable */}
         <NavLink to="userroletable" className={activeClass}>
-          <div className="w-[120px] text-center p-1">User Role</div>
+          <div className="w-[120px] text-center p-1">Account Category</div>
+        </NavLink>
+
+        <NavLink to="userroletable" className={activeClass}>
+          <div className="w-[120px] text-center p-1">FS Group</div>
+        </NavLink>
+
+        <NavLink to="userroletable" className={activeClass}>
+          <div className="w-[120px] text-center p-1">FS ROC Group</div>
         </NavLink>
       </div>
 

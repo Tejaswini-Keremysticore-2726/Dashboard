@@ -1,6 +1,5 @@
-
-
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -20,10 +19,12 @@ function Navbar() {
           </summary>
 
           <ul className="absolute right-0 mt-2 w-40 rounded bg-white shadow-md border">
-            <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center gap-2">
-              <i className="fa-solid fa-right-from-bracket text-red-600"></i>
-              Logout
-            </li>
+            <NavLink to="/login">
+              <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex items-center gap-2">
+                <i className="fa-solid fa-right-from-bracket text-red-600"></i>
+                Logout
+              </li>
+            </NavLink>
           </ul>
         </details>
       </div>
