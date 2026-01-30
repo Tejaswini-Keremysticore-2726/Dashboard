@@ -5,7 +5,7 @@ import Leadtable from "../components/Leadtable";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import AddIcon from "@mui/icons-material/Add";
 
-function Usertable() {
+function AccCategory() {
   return (
     <>
       <div className="flex justify-end gap-5">
@@ -96,4 +96,4 @@ function Usertable() {
   );
 }
 
-export default Usertable;
+export default AccCategory;

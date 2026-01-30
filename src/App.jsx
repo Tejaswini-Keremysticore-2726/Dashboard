@@ -38,16 +38,15 @@
 
 // export default App;
 
-
-
-
 import "./App.css";
 import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
 import Leadtable from "./components/Leadtable";
 import Usertable from "./pages/Usertable";
-import Userroletable from "./pages/Userroletable";
+import AccCategory from "./pages/AccCategory";
 import Login from "./pages/Login";
+import Fsgrp from "./pages/Fsgrp";
+import Rocgrp from "./pages/Rocgrp";
 import Calendar from "./components/Calendar";
 
 import { Routes, Route } from "react-router-dom";
@@ -67,7 +66,9 @@ function App() {
         <Route path="leadtable" element={<Leadtable />}>
           <Route index element={<Usertable />} />
           <Route path="usertable" element={<Usertable />} />
-          <Route path="userroletable" element={<Userroletable />} />
+          <Route path="accCategory" element={<AccCategory />} />
+          <Route path="fsgrp" element={<Fsgrp />} />
+          <Route path="rocgrp" element={<Rocgrp />} />
         </Route>
       </Route>
 
