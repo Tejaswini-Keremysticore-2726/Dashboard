@@ -19,7 +19,6 @@ function Usertable() {
         </button>
       </div>
 
-      {/* ✅ TABLE SCROLL WRAPPER (same like Fsgrp) */}
       <div className="w-full mt-5 overflow-x-auto">
         <table className="min-w-max w-full border-0 border-gray-100 border-separate border-spacing-0 text-black rounded-lg">
           <thead className="bg-[#f8ebec]">

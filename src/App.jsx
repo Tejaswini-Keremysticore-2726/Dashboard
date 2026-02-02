@@ -1,5 +1,3 @@
-
-
 import "./App.css";
 import Home from "./components/Home";
 import Dashboard from "./components/Dashboard";
@@ -24,11 +22,11 @@ function App() {
 
         {/* ✅ Calendar */}
         <Route path="calendar" element={<Calendar />} />
+        <Route path="logoutpopup" element={<Logoutpopup />} />
 
         {/* ✅ Single leadtable parent route */}
         <Route path="leadtable" element={<Leadtable />}>
           <Route index element={<Usertable />} />
-          {/* <Route path="usertable" element={<Usertable />} /> */}
           <Route path="accCategory" element={<AccCategory />} />
           <Route path="fsgrp" element={<Fsgrp />} />
           <Route path="rocgrp" element={<Rocgrp />} />
@@ -36,6 +34,7 @@ function App() {
       </Route>
 
       {/* Separate page */}
+      
       <Route path="/login" element={<Login />} />
     </Routes>
   );

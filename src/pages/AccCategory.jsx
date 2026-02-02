@@ -19,7 +19,7 @@ function AccCategory() {
       </div>
 
       <div className="w-full mt-5">
-        {/* scroll container */}
+       
         <div className="w-full overflow-x-auto">
           <table className="w-full border-0 border-gray-100 border-separate border-spacing-0 text-black rounded-lg">
             <thead className="bg-[#f8ebec]">
